@@ -1,0 +1,17 @@
+now we are going to add a extension called hello extension and we are maaking it to show hello  when it is clicked 
+what is manifest.json file:
+    it is one of the most imporatnt file .without this can cant add a extra feature
+    Next, create a new file in this directory called manifest.json. 
+    This JSON file describes the extension's capabilities and configuration.
+     For example, most manifest files contain an "action" key which declares the image Chrome 
+     should use as the extension's action icon and the HTML page to show in a popup when the extension's action icon is clicked.
+    {
+  "name": "Hello Extensions",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  }
+}
